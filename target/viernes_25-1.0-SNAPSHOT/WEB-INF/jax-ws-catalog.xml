@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/paola/Desktop/rosales_paola_viernes25/calcular_edad_webservice.wsdl" uri="wsdl/calcular_edad_webservice.wsdl"/>
+    <system systemId="http://localhost:8080/jueves24/calcular_edad_webservice?xsd=1" uri="wsdl/localhost_8080/jueves24/calcular_edad_webservice.xsd_1.xsd"/>
+</catalog>

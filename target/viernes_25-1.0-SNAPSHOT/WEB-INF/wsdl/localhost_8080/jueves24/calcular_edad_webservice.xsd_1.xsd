@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.0 (wsit240-7e98ff4; 2017-08-03T21:19:54+0200) JAXWS-RI/2.3.0 JAXWS-API/2.3.0 JAXB-RI/2.3.0 JAXB-API/2.3.0 svn-revision#unknown. --><xs:schema xmlns:tns="http://jueves24/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://jueves24/">
+
+<xs:element name="altura" type="tns:altura"/>
+
+<xs:element name="alturaResponse" type="tns:alturaResponse"/>
+
+<xs:element name="alumno" type="tns:alumno"/>
+
+<xs:element name="alumnoResponse" type="tns:alumnoResponse"/>
+
+<xs:element name="calcular_edad" type="tns:calcular_edad"/>
+
+<xs:element name="calcular_edadResponse" type="tns:calcular_edadResponse"/>
+
+<xs:element name="carrera" type="tns:carrera"/>
+
+<xs:element name="carreraResponse" type="tns:carreraResponse"/>
+
+<xs:element name="universidad" type="tns:universidad"/>
+
+<xs:element name="universidadResponse" type="tns:universidadResponse"/>
+
+<xs:complexType name="alumno">
+<xs:sequence>
+<xs:element name="alumno" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="alumnoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="universidad">
+<xs:sequence>
+<xs:element name="universidad" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="universidadResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="carrera">
+<xs:sequence>
+<xs:element name="carrera" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="carreraResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="calcular_edad">
+<xs:sequence>
+<xs:element name="fecha_nacimiento" type="xs:int"/>
+<xs:element name="fecha_actual" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="calcular_edadResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:int"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="altura">
+<xs:sequence>
+<xs:element name="altura" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="alturaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:double"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
